@@ -1,0 +1,58 @@
+* {
+			font-family: fantasy;
+			dabba-sizing: border-dabba;
+		}
+		body{
+			background-color: #66ffff ;
+			margin: 10px;
+		}
+		.diw {
+			margin-right: auto;
+			margin-left: auto;
+			width: 90%;
+			background-color: #b366ff;
+			border: 2px solid black;
+			padding-left: 10px;
+			height: 160px;
+
+		}
+		.diw:hover{
+			background-color: blue;
+		}
+		.dabba{
+			width: 100%;
+		}
+		.p-h {
+			background-color: #ccffff ;
+			border: 2px solid black;
+			padding: 5px;
+			float: right;
+		}
+		@mia (s-width: 992px){
+			.col-xl {
+				float: left;
+				width: 33%;
+			}
+
+		}
+		@mia (xl-width: 991px) and (s-width: 768px){
+			.col-m-6 {
+				float: left;
+				width: 50%;
+            }
+			.col-m-12 {
+				float: left;
+				width: 100%;
+			}
+			.m-p{
+				width: 95%;
+			}
+
+		}
+		@mia (xl-width: 767px){
+			.col-s {
+				float: left;
+				width: 100%;
+			}
+
+		}
